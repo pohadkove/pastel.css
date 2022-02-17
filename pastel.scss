@@ -1,0 +1,56 @@
+$color-map: (
+  red: rgb(255, 128, 128),
+  green: rgb(175, 255, 175),
+  blue: rgb(175, 175, 255),
+  purple: rgb(255, 154, 255),
+  yellow: rgb(255, 255, 126),
+  orange: rgb(255, 184, 53),
+  black: black,
+  white: white,
+  dark: #282828,
+);
+
+@each $name, $color in $color-map {
+  .#{$name}-bg {
+    background: $color;
+  }
+  .#{$name}-text {
+    color: $color;
+  }
+  
+}
+
+@each $name, $color in $color-map {
+  .#{$name}-btn {
+    background: $color;
+    border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+
+  display: inline-block;
+  cursor:pointer;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  &:hover {
+    background:white
+}
+  }
+ 
+  
+}
+
+
