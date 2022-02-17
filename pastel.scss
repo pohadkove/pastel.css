@@ -1,13 +1,53 @@
 $color-map: (
-  red: rgb(255, 128, 128),
-  green: rgb(175, 255, 175),
-  blue: rgb(103, 103, 255),
-  purple: rgb(208, 126, 255),
-  yellow: rgb(255, 255, 126),
-  orange: rgb(255, 184, 53),
-  black: black,
-  white: white,
-  dark: #282828,
+  p-red: rgb(255, 128, 128),
+  p-green: rgb(175, 255, 175),
+  p-blue: rgb(81, 136, 255),
+  p-purple: rgb(208, 126, 255),
+  p-yellow: rgb(255, 255, 126),
+  p-orange: rgb(255, 142, 49),
+  black: rgb(0, 0, 0),
+  white: rgb(255, 255, 255),
+  dark: rgb(40, 40, 40),
+  gray: gray,
+  silver: silver,
+  maroon: maroon,
+  red: red,
+  purple: purple,
+  fuchsia: fuchsia,
+  green: green,
+  lime: lime,
+  olive: olive,
+  yellow: yellow,
+  navy: navy,
+  blue: blue,
+  teal: teal,
+  aqua: aqua,
+  aliceblue:aliceblue,
+  antiquewhite: antiquewhite,
+  aquamarine: 	aquamarine,
+  azure: azure,
+  beige:beige ,
+  bisque: bisque,
+  blanchedalmond: blanchedalmond,
+  blueviolet: blueviolet,
+  brown:brown,
+  burlywood:burlywood,
+  cadetblue:cadetblue,
+  chartreuse:	chartreuse,
+  chocolate:chocolate,
+  coral:coral,
+  cornflowerblue:cornflowerblue,
+  cornsilk:cornsilk,
+  crimson:crimson,
+  darkblue:darkblue,
+  darkcyan:	darkcyan,
+  darkgoldenrod:darkgoldenrod,
+  darkgreen:darkgreen,
+  darkgrey:darkgrey,
+  darkkhaki:darkkhaki,
+  darkmagenta:darkmagenta,
+  darkolivegreen:darkolivegreen,
+
 );
 
 @each $name, $color in $color-map {
@@ -48,4 +88,31 @@ $color-map: (
   
 }
 
+$radius-map:(
+sm: border-radius 5px,
+m: border-radius 8px,
+l: border-radius 10px,
+xl: border-radius 15px,
+);
 
+@each $name, $border-radius in $radius-map {
+
+  .#{$name}-radius {
+    border-radius: $border-radius;
+  }
+
+}
+
+@each $name, $color in $color-map {
+  .#{$name}-card {
+    background: $color;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   padding: 2px 6px;
+   width: fit-content;
+   border-radius: 8px;
+   &:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+   }
+  }
+}
