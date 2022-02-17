@@ -15,19 +15,19 @@
 }
 
 .blue-bg {
-  background: #afafff;
+  background: #6767ff;
 }
 
 .blue-text {
-  color: #afafff;
+  color: #6767ff;
 }
 
 .purple-bg {
-  background: #ff9aff;
+  background: #d07eff;
 }
 
 .purple-text {
-  color: #ff9aff;
+  color: #d07eff;
 }
 
 .yellow-bg {
@@ -72,307 +72,226 @@
 
 .red-btn {
   background: #ff8080;
-  border-radius: 8px;
-  border-style: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: inline-block;
   cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  height: 40px;
-  line-height: 20px;
-  list-style: none;
-  margin: 0;
-  outline: none;
-  padding: 10px 16px;
-  position: relative;
+  outline: 0;
+  background-color: #ff8080;
+  border-color: #ff8080;
+  display: inline-block;
+  font-weight: 400s;
+  line-height: 1.5;
   text-align: center;
-  text-decoration: none;
-  -webkit-transition: color 100ms;
-  transition: color 100ms;
-  vertical-align: baseline;
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
-  -webkit-user-select: none;
-  -ms-touch-action: manipulation;
-      touch-action: manipulation;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: .25rem;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
 }
 
 .red-btn:hover {
-  background: white;
+  background-color: #ff9580;
+  border-color: #ff9580;
 }
 
 .green-btn {
   background: #afffaf;
-  border-radius: 8px;
-  border-style: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: inline-block;
   cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  height: 40px;
-  line-height: 20px;
-  list-style: none;
-  margin: 0;
-  outline: none;
-  padding: 10px 16px;
-  position: relative;
+  outline: 0;
+  background-color: #afffaf;
+  border-color: #afffaf;
+  display: inline-block;
+  font-weight: 400s;
+  line-height: 1.5;
   text-align: center;
-  text-decoration: none;
-  -webkit-transition: color 100ms;
-  transition: color 100ms;
-  vertical-align: baseline;
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
-  -webkit-user-select: none;
-  -ms-touch-action: manipulation;
-      touch-action: manipulation;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: .25rem;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
 }
 
 .green-btn:hover {
-  background: white;
+  background-color: #afffbc;
+  border-color: #afffbc;
 }
 
 .blue-btn {
-  background: #afafff;
-  border-radius: 8px;
-  border-style: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: inline-block;
+  background: #6767ff;
   cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  height: 40px;
-  line-height: 20px;
-  list-style: none;
-  margin: 0;
-  outline: none;
-  padding: 10px 16px;
-  position: relative;
+  outline: 0;
+  background-color: #6767ff;
+  border-color: #6767ff;
+  display: inline-block;
+  font-weight: 400s;
+  line-height: 1.5;
   text-align: center;
-  text-decoration: none;
-  -webkit-transition: color 100ms;
-  transition: color 100ms;
-  vertical-align: baseline;
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
-  -webkit-user-select: none;
-  -ms-touch-action: manipulation;
-      touch-action: manipulation;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: .25rem;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
 }
 
 .blue-btn:hover {
-  background: white;
+  background-color: #8067ff;
+  border-color: #8067ff;
 }
 
 .purple-btn {
-  background: #ff9aff;
-  border-radius: 8px;
-  border-style: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: inline-block;
+  background: #d07eff;
   cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  height: 40px;
-  line-height: 20px;
-  list-style: none;
-  margin: 0;
-  outline: none;
-  padding: 10px 16px;
-  position: relative;
+  outline: 0;
+  background-color: #d07eff;
+  border-color: #d07eff;
+  display: inline-block;
+  font-weight: 400s;
+  line-height: 1.5;
   text-align: center;
-  text-decoration: none;
-  -webkit-transition: color 100ms;
-  transition: color 100ms;
-  vertical-align: baseline;
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
-  -webkit-user-select: none;
-  -ms-touch-action: manipulation;
-      touch-action: manipulation;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: .25rem;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
 }
 
 .purple-btn:hover {
-  background: white;
+  background-color: #e67eff;
+  border-color: #e67eff;
 }
 
 .yellow-btn {
   background: #ffff7e;
-  border-radius: 8px;
-  border-style: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: inline-block;
   cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  height: 40px;
-  line-height: 20px;
-  list-style: none;
-  margin: 0;
-  outline: none;
-  padding: 10px 16px;
-  position: relative;
+  outline: 0;
+  background-color: #ffff7e;
+  border-color: #ffff7e;
+  display: inline-block;
+  font-weight: 400s;
+  line-height: 1.5;
   text-align: center;
-  text-decoration: none;
-  -webkit-transition: color 100ms;
-  transition: color 100ms;
-  vertical-align: baseline;
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
-  -webkit-user-select: none;
-  -ms-touch-action: manipulation;
-      touch-action: manipulation;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: .25rem;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
 }
 
 .yellow-btn:hover {
-  background: white;
+  background-color: #eaff7e;
+  border-color: #eaff7e;
 }
 
 .orange-btn {
   background: #ffb835;
-  border-radius: 8px;
-  border-style: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: inline-block;
   cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  height: 40px;
-  line-height: 20px;
-  list-style: none;
-  margin: 0;
-  outline: none;
-  padding: 10px 16px;
-  position: relative;
+  outline: 0;
+  background-color: #ffb835;
+  border-color: #ffb835;
+  display: inline-block;
+  font-weight: 400s;
+  line-height: 1.5;
   text-align: center;
-  text-decoration: none;
-  -webkit-transition: color 100ms;
-  transition: color 100ms;
-  vertical-align: baseline;
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
-  -webkit-user-select: none;
-  -ms-touch-action: manipulation;
-      touch-action: manipulation;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: .25rem;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
 }
 
 .orange-btn:hover {
-  background: white;
+  background-color: #ffda35;
+  border-color: #ffda35;
 }
 
 .black-btn {
   background: black;
-  border-radius: 8px;
-  border-style: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: inline-block;
   cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  height: 40px;
-  line-height: 20px;
-  list-style: none;
-  margin: 0;
-  outline: none;
-  padding: 10px 16px;
-  position: relative;
+  outline: 0;
+  background-color: black;
+  border-color: black;
+  display: inline-block;
+  font-weight: 400s;
+  line-height: 1.5;
   text-align: center;
-  text-decoration: none;
-  -webkit-transition: color 100ms;
-  transition: color 100ms;
-  vertical-align: baseline;
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
-  -webkit-user-select: none;
-  -ms-touch-action: manipulation;
-      touch-action: manipulation;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: .25rem;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
 }
 
 .black-btn:hover {
-  background: white;
+  background-color: black;
+  border-color: black;
 }
 
 .white-btn {
   background: white;
-  border-radius: 8px;
-  border-style: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: inline-block;
   cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  height: 40px;
-  line-height: 20px;
-  list-style: none;
-  margin: 0;
-  outline: none;
-  padding: 10px 16px;
-  position: relative;
+  outline: 0;
+  background-color: white;
+  border-color: white;
+  display: inline-block;
+  font-weight: 400s;
+  line-height: 1.5;
   text-align: center;
-  text-decoration: none;
-  -webkit-transition: color 100ms;
-  transition: color 100ms;
-  vertical-align: baseline;
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
-  -webkit-user-select: none;
-  -ms-touch-action: manipulation;
-      touch-action: manipulation;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: .25rem;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
 }
 
 .white-btn:hover {
-  background: white;
+  background-color: white;
+  border-color: white;
 }
 
 .dark-btn {
   background: #282828;
-  border-radius: 8px;
-  border-style: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: inline-block;
   cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  height: 40px;
-  line-height: 20px;
-  list-style: none;
-  margin: 0;
-  outline: none;
-  padding: 10px 16px;
-  position: relative;
+  outline: 0;
+  background-color: #282828;
+  border-color: #282828;
+  display: inline-block;
+  font-weight: 400s;
+  line-height: 1.5;
   text-align: center;
-  text-decoration: none;
-  -webkit-transition: color 100ms;
-  transition: color 100ms;
-  vertical-align: baseline;
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
-  -webkit-user-select: none;
-  -ms-touch-action: manipulation;
-      touch-action: manipulation;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: .25rem;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
 }
 
 .dark-btn:hover {
-  background: white;
+  background-color: #282828;
+  border-color: #282828;
 }
 /*# sourceMappingURL=pastel.css.map */
