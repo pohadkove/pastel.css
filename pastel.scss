@@ -1,13 +1,36 @@
 $color-map: (
+  //pastel colors
   p-red: rgb(255, 128, 128),
   p-green: rgb(175, 255, 175),
   p-blue: rgb(81, 136, 255),
   p-purple: rgb(208, 126, 255),
   p-yellow: rgb(255, 255, 126),
   p-orange: rgb(255, 142, 49),
+  dark: rgb(40, 40, 40),
+  //custom colors
+  //summer
+  s-salmon:#e76f51,
+  s-tangerine:#f4a261,
+  s-yellow:#e9c46a,
+  s-min:#2a9d8f,
+  s-navy:#264653,
+  //discord colors
+  d-primary:	#7289da,
+  d-gray:	#99aab5,	
+  d-secondary:	#2c2f33,	
+  d-dark:	#23272a,
+  //bootstrap colros
+  b-primary:#0d6efd,
+  b-secondary:#6c757d,
+  b-success:#28a745,
+  b-danger:#dc3545,
+  b-warning:#ffc107,
+  b-info:#17a2b8,
+  b-light:#f8f9fa,
+  b-dark:#343a40,
+  //built in css colors
   black: rgb(0, 0, 0),
   white: rgb(255, 255, 255),
-  dark: rgb(40, 40, 40),
   gray: gray,
   silver: silver,
   maroon: maroon,
@@ -65,12 +88,25 @@ $color-map: (
   forestgreen:	forestgreen,
   gainsboro:gainsboro,
   ghostwhite:ghostwhite,
+  indianred:indianred,
+  indigo:indigo,
+  ivory:ivory,
+  khaki:khaki,
+  lavender:lavender,
   gold:gold,
   goldenrod:goldenrod,
   greenyellow:greenyellow,
   salmon:	salmon,
+  lightgreen:lightgreen,
   steelblue:steelblue,
-  tomato:tomato,
+  thistle:thistle,
+  tan:	tan,
+  tomato:tomato, 
+  turquoise:turquoise,
+  wheat:	wheat,
+  yellowgreen:yellowgreen,
+  whitesmoke:whitesmoke,
+  hotpink:hotpink,
 );
 
 @each $name, $color in $color-map {
@@ -100,17 +136,78 @@ $color-map: (
     font-size: 16px;
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    &:hover {
-        
+    &:hover {    
         background-color: adjust-hue($color, 10);
         border-color: adjust-hue($color, 10);
     }
-
   }
- 
-  
 }
 
+@each $name, $color in $color-map {
+  .#{$name}-btn-sharp {
+    background: $color;
+    cursor: pointer;
+    outline: 0;
+    
+    background-color: $color;
+    border-color: $color;
+    display: inline-block;
+    font-weight: 400s;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 16px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    &:hover {    
+        background-color: adjust-hue($color, 10);
+        border-color: adjust-hue($color, 10);
+    }
+  }
+}
+
+@each $name, $color in $color-map {
+  .#{$name}-btn-pill {
+    background: $color;
+    cursor: pointer;
+    outline: 0;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    background-color: $color;
+    border-color: $color;
+    display: inline-block;
+    font-weight: 400s;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 16px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    &:hover {    
+        background-color: adjust-hue($color, 10);
+        border-color: adjust-hue($color, 10);
+    }
+  }
+}
+
+@each $name, $color in $color-map {
+  .#{$name}-btn-outline {
+    background: $color;
+    -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid 2px;
+  border-color: adjust-hue($color, 15);
+  text-decoration: none;
+    }
+  }
+
+//--------------------
+
+//-----------
 $radius-map:(
 sm: border-radius 5px,
 m: border-radius 8px,
@@ -139,3 +236,4 @@ xl: border-radius 15px,
    }
   }
 }
+
