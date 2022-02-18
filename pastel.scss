@@ -47,7 +47,30 @@ $color-map: (
   darkkhaki:darkkhaki,
   darkmagenta:darkmagenta,
   darkolivegreen:darkolivegreen,
-
+  darkorange:darkorange,
+  darkorchid:darkorchid,
+  darkred:darkred,
+  darksalmon:darksalmon,
+  darkseagreen:darkseagreen,
+  darkslateblue:darkslateblue,
+  darkslategray:darkslategray,
+  darkturquoise:darkturquoise,
+  darkviolet:darkviolet,
+  deeppink:deeppink,
+  deepskyblue:deepskyblue,
+  dimgray:dimgray,
+  dodgerblue:dodgerblue,
+  firebrick:firebrick,
+  floralwhite:	floralwhite,
+  forestgreen:	forestgreen,
+  gainsboro:gainsboro,
+  ghostwhite:ghostwhite,
+  gold:gold,
+  goldenrod:goldenrod,
+  greenyellow:greenyellow,
+  salmon:	salmon,
+  steelblue:steelblue,
+  tomato:tomato,
 );
 
 @each $name, $color in $color-map {
@@ -110,7 +133,7 @@ xl: border-radius 15px,
    transition: 0.3s;
    padding: 2px 6px;
    width: fit-content;
-   border-radius: 8px;
+   border-radius: 3px;
    &:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
    }
