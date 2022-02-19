@@ -9,11 +9,11 @@ $color-map: (
   dark: rgb(40, 40, 40),
   //custom colors
   //summer
-  s-salmon:#e76f51,
-  s-tangerine:#f4a261,
-  s-yellow:#e9c46a,
-  s-min:#2a9d8f,
-  s-navy:#264653,
+  s-primary:#e76f51,
+  s-secondary:#f4a261,
+  s-warning:#e9c46a,
+  s-info:#2a9d8f,
+  s-dark:#264653,
   //discord colors
   d-primary:	#7289da,
   d-gray:	#99aab5,	
@@ -47,6 +47,19 @@ $color-map: (
   mui-warning-dark:#f57c00,
   mui-info-dark:#0288d1,
   mui-success-dark:#388e3c,
+  //andoid esque
+  a-primary-dark:   #00796B,
+  a-primary:        #009688,
+  a-primary-light:  #B2DFDB,
+  a-accent:         #607D8B,
+  a-primary-text:   #212121,
+  a-secondary-text: #757575,
+  a-divider:        #BDBDBD,
+  //exodus
+  ex-primary:#6619FF,
+  ex-secondary:#00BFFF,
+  ex-bg:#1F2133,
+
   //built in css colors
   black: rgb(0, 0, 0),
   white: rgb(255, 255, 255),
