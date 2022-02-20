@@ -59,7 +59,20 @@ $color-map: (
   ex-primary:#6619FF,
   ex-secondary:#00BFFF,
   ex-bg:#1F2133,
-
+//red
+  r-primary-dark:   #D32F2F,
+  r-primary:        #F44336,
+  r-primary-light:  #FFCDD2,
+  r-accent:         #607D8B,
+  r-primary-text:   #212121,
+  r-secondary-text: #757575,
+  r-divider:        #BDBDBD,
+//yellow/blue palette
+yb-color1: #f1cf76,
+yb-color2: #eae39d,
+yb-color3: #1a53b4,
+yb-color4: #2097d8,
+yb-color5: #a3ebe9,
   //built in css colors
   black: rgb(0, 0, 0),
   white: rgb(255, 255, 255),
@@ -158,7 +171,7 @@ $color-map: (
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   border: solid 2px;
-  border-color: adjust-hue($color, 15);
+  border-color: adjust-hue($color, 10);
   text-decoration: none;
     }
   }
@@ -194,4 +207,23 @@ xl: border-radius 15px,
    }
   }
 }
-
+.ripple{
+  position: relative;
+  overflow: hidden; 
+}
+.ripple:before {
+  border-radius: 50%;
+  background-color: rgba(255,255,255,0.6);
+  content:'';
+  position: absolute;
+  top: 50%; left: 50%;
+  width:0; height:0;
+}
+.ripple:focus:before {
+  transition: all 0.5s ease-out;
+  opacity:0;
+  width:160px;
+  height:160px;
+  margin-top:-80px;
+  margin-left:-80px;
+}
