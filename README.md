@@ -11,13 +11,13 @@ Has color schemes from other companies and libraries for example discord, so you
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| d-primary | ![#7289da](https://via.placeholder.com/10/#677bc5?text=+) #7289da |
+| d-primary | ![#7289da](https://via.placeholder.com/10/677bc5?text=+) #7289da |
 
 
 ## key
 
-d = dark colors
-inspect files for the rest im to lazy
+- d = dark colors
+- inspect files for the rest im to lazy
 
 ## Authors
 
