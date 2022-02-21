@@ -24,7 +24,7 @@ mui = mui colors\
 a = android look a like colors
 ## Authors
 
-- [@pohadkove](https://github.com/pohadkovee)
+- [@pohadkove](https://github.com/pohadkove)
 
 
 ## Acknowledgements

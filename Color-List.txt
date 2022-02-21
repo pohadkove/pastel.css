@@ -1,4 +1,4 @@
-  //pastel colors
+ //pastel colors
   p-red: rgb(255, 128, 128),
   p-green: rgb(175, 255, 175),
   p-blue: rgb(81, 136, 255),
@@ -8,17 +8,17 @@
   dark: rgb(40, 40, 40),
   //custom colors
   //summer
-  s-salmon:#e76f51,
-  s-tangerine:#f4a261,
-  s-yellow:#e9c46a,
-  s-min:#2a9d8f,
-  s-navy:#264653,
+  s-primary:#e76f51,
+  s-secondary:#f4a261,
+  s-warning:#e9c46a,
+  s-info:#2a9d8f,
+  s-dark:#264653,
   //discord colors
   d-primary:	#7289da,
   d-gray:	#99aab5,	
   d-secondary:	#2c2f33,	
   d-dark:	#23272a,
-  //bootstrap colros
+  //bootstrap colors
   b-primary:#0d6efd,
   b-secondary:#6c757d,
   b-success:#28a745,
@@ -46,6 +46,32 @@
   mui-warning-dark:#f57c00,
   mui-info-dark:#0288d1,
   mui-success-dark:#388e3c,
+  //andoid esque
+  a-primary-dark:   #00796B,
+  a-primary:        #009688,
+  a-primary-light:  #B2DFDB,
+  a-accent:         #607D8B,
+  a-primary-text:   #212121,
+  a-secondary-text: #757575,
+  a-divider:        #BDBDBD,
+  //exodus
+  ex-primary:#6619FF,
+  ex-secondary:#00BFFF,
+  ex-bg:#1F2133,
+//red
+  r-primary-dark:   #D32F2F,
+  r-primary:        #F44336,
+  r-primary-light:  #FFCDD2,
+  r-accent:         #607D8B,
+  r-primary-text:   #212121,
+  r-secondary-text: #757575,
+  r-divider:        #BDBDBD,
+//yellow/blue palette
+yb-color1: #f1cf76,
+yb-color2: #eae39d,
+yb-color3: #1a53b4,
+yb-color4: #2097d8,
+yb-color5: #a3ebe9,
   //built in css colors
   black: rgb(0, 0, 0),
   white: rgb(255, 255, 255),
