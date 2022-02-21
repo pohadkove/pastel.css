@@ -7409,4 +7409,352 @@
   margin-top: -80px;
   margin-left: -80px;
 }
+
+.underline {
+  text-decoration: underline;
+}
+
+.underline-dotted {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+.overline {
+  text-decoration: overline;
+}
+
+.p-red-underline {
+  -webkit-text-decoration: underline #ff8080;
+          text-decoration: underline #ff8080;
+}
+
+.p-green-underline {
+  -webkit-text-decoration: underline #afffaf;
+          text-decoration: underline #afffaf;
+}
+
+.p-blue-underline {
+  -webkit-text-decoration: underline #5188ff;
+          text-decoration: underline #5188ff;
+}
+
+.p-purple-underline {
+  -webkit-text-decoration: underline #d07eff;
+          text-decoration: underline #d07eff;
+}
+
+.p-yellow-underline {
+  -webkit-text-decoration: underline #ffff7e;
+          text-decoration: underline #ffff7e;
+}
+
+.p-orange-underline {
+  -webkit-text-decoration: underline #ff8e31;
+          text-decoration: underline #ff8e31;
+}
+
+.dark-underline {
+  -webkit-text-decoration: underline #282828;
+          text-decoration: underline #282828;
+}
+
+.s-primary-underline {
+  -webkit-text-decoration: underline #e76f51;
+          text-decoration: underline #e76f51;
+}
+
+.s-secondary-underline {
+  -webkit-text-decoration: underline #f4a261;
+          text-decoration: underline #f4a261;
+}
+
+.s-warning-underline {
+  -webkit-text-decoration: underline #e9c46a;
+          text-decoration: underline #e9c46a;
+}
+
+.s-info-underline {
+  -webkit-text-decoration: underline #2a9d8f;
+          text-decoration: underline #2a9d8f;
+}
+
+.s-dark-underline {
+  -webkit-text-decoration: underline #264653;
+          text-decoration: underline #264653;
+}
+
+.d-primary-underline {
+  -webkit-text-decoration: underline #7289da;
+          text-decoration: underline #7289da;
+}
+
+.d-gray-underline {
+  -webkit-text-decoration: underline #99aab5;
+          text-decoration: underline #99aab5;
+}
+
+.d-secondary-underline {
+  -webkit-text-decoration: underline #2c2f33;
+          text-decoration: underline #2c2f33;
+}
+
+.d-dark-underline {
+  -webkit-text-decoration: underline #23272a;
+          text-decoration: underline #23272a;
+}
+
+.b-primary-underline {
+  -webkit-text-decoration: underline #0d6efd;
+          text-decoration: underline #0d6efd;
+}
+
+.b-secondary-underline {
+  -webkit-text-decoration: underline #6c757d;
+          text-decoration: underline #6c757d;
+}
+
+.b-success-underline {
+  -webkit-text-decoration: underline #28a745;
+          text-decoration: underline #28a745;
+}
+
+.b-danger-underline {
+  -webkit-text-decoration: underline #dc3545;
+          text-decoration: underline #dc3545;
+}
+
+.b-warning-underline {
+  -webkit-text-decoration: underline #ffc107;
+          text-decoration: underline #ffc107;
+}
+
+.b-info-underline {
+  -webkit-text-decoration: underline #17a2b8;
+          text-decoration: underline #17a2b8;
+}
+
+.b-light-underline {
+  -webkit-text-decoration: underline #f8f9fa;
+          text-decoration: underline #f8f9fa;
+}
+
+.b-dark-underline {
+  -webkit-text-decoration: underline #343a40;
+          text-decoration: underline #343a40;
+}
+
+.mui-primary-underline {
+  -webkit-text-decoration: underline #90caf9;
+          text-decoration: underline #90caf9;
+}
+
+.mui-secondary-underline {
+  -webkit-text-decoration: underline #ce93d8;
+          text-decoration: underline #ce93d8;
+}
+
+.mui-error-underline {
+  -webkit-text-decoration: underline #f44336;
+          text-decoration: underline #f44336;
+}
+
+.mui-warning-underline {
+  -webkit-text-decoration: underline #ffa726;
+          text-decoration: underline #ffa726;
+}
+
+.mui-info-underline {
+  -webkit-text-decoration: underline #29b6f6;
+          text-decoration: underline #29b6f6;
+}
+
+.mui-success-underline {
+  -webkit-text-decoration: underline #66bb6a;
+          text-decoration: underline #66bb6a;
+}
+
+.mui-primary-light-underline {
+  -webkit-text-decoration: underline #e3f2fd;
+          text-decoration: underline #e3f2fd;
+}
+
+.mui-secondary-light-underline {
+  -webkit-text-decoration: underline #f3e5f5;
+          text-decoration: underline #f3e5f5;
+}
+
+.mui-error-light-underline {
+  -webkit-text-decoration: underline #e57373;
+          text-decoration: underline #e57373;
+}
+
+.mui-warning-light-underline {
+  -webkit-text-decoration: underline #ffb74d;
+          text-decoration: underline #ffb74d;
+}
+
+.mui-info-light-underline {
+  -webkit-text-decoration: underline #4fc3f7;
+          text-decoration: underline #4fc3f7;
+}
+
+.mui-success-light-underline {
+  -webkit-text-decoration: underline #81c784;
+          text-decoration: underline #81c784;
+}
+
+.mui-primary-dark-underline {
+  -webkit-text-decoration: underline #42a5f5;
+          text-decoration: underline #42a5f5;
+}
+
+.mui-secondary-dark-underline {
+  -webkit-text-decoration: underline #ab47bc;
+          text-decoration: underline #ab47bc;
+}
+
+.mui-error-dark-underline {
+  -webkit-text-decoration: underline #d32f2f;
+          text-decoration: underline #d32f2f;
+}
+
+.mui-warning-dark-underline {
+  -webkit-text-decoration: underline #f57c00;
+          text-decoration: underline #f57c00;
+}
+
+.mui-info-dark-underline {
+  -webkit-text-decoration: underline #0288d1;
+          text-decoration: underline #0288d1;
+}
+
+.mui-success-dark-underline {
+  -webkit-text-decoration: underline #388e3c;
+          text-decoration: underline #388e3c;
+}
+
+.a-primary-dark-underline {
+  -webkit-text-decoration: underline #00796B;
+          text-decoration: underline #00796B;
+}
+
+.a-primary-underline {
+  -webkit-text-decoration: underline #009688;
+          text-decoration: underline #009688;
+}
+
+.a-primary-light-underline {
+  -webkit-text-decoration: underline #B2DFDB;
+          text-decoration: underline #B2DFDB;
+}
+
+.a-accent-underline {
+  -webkit-text-decoration: underline #607D8B;
+          text-decoration: underline #607D8B;
+}
+
+.a-primary-text-underline {
+  -webkit-text-decoration: underline #212121;
+          text-decoration: underline #212121;
+}
+
+.a-secondary-text-underline {
+  -webkit-text-decoration: underline #757575;
+          text-decoration: underline #757575;
+}
+
+.a-divider-underline {
+  -webkit-text-decoration: underline #BDBDBD;
+          text-decoration: underline #BDBDBD;
+}
+
+.ex-primary-underline {
+  -webkit-text-decoration: underline #6619FF;
+          text-decoration: underline #6619FF;
+}
+
+.ex-secondary-underline {
+  -webkit-text-decoration: underline #00BFFF;
+          text-decoration: underline #00BFFF;
+}
+
+.ex-bg-underline {
+  -webkit-text-decoration: underline #1F2133;
+          text-decoration: underline #1F2133;
+}
+
+.r-primary-dark-underline {
+  -webkit-text-decoration: underline #D32F2F;
+          text-decoration: underline #D32F2F;
+}
+
+.r-primary-underline {
+  -webkit-text-decoration: underline #F44336;
+          text-decoration: underline #F44336;
+}
+
+.r-primary-light-underline {
+  -webkit-text-decoration: underline #FFCDD2;
+          text-decoration: underline #FFCDD2;
+}
+
+.r-accent-underline {
+  -webkit-text-decoration: underline #607D8B;
+          text-decoration: underline #607D8B;
+}
+
+.r-primary-text-underline {
+  -webkit-text-decoration: underline #212121;
+          text-decoration: underline #212121;
+}
+
+.r-secondary-text-underline {
+  -webkit-text-decoration: underline #757575;
+          text-decoration: underline #757575;
+}
+
+.r-divider-underline {
+  -webkit-text-decoration: underline #BDBDBD;
+          text-decoration: underline #BDBDBD;
+}
+
+.yb-color1-underline {
+  -webkit-text-decoration: underline #f1cf76;
+          text-decoration: underline #f1cf76;
+}
+
+.yb-color2-underline {
+  -webkit-text-decoration: underline #eae39d;
+          text-decoration: underline #eae39d;
+}
+
+.yb-color3-underline {
+  -webkit-text-decoration: underline #1a53b4;
+          text-decoration: underline #1a53b4;
+}
+
+.yb-color4-underline {
+  -webkit-text-decoration: underline #2097d8;
+          text-decoration: underline #2097d8;
+}
+
+.yb-color5-underline {
+  -webkit-text-decoration: underline #a3ebe9;
+          text-decoration: underline #a3ebe9;
+}
+
+.black-underline {
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
+}
+
+.white-underline {
+  -webkit-text-decoration: underline white;
+          text-decoration: underline white;
+}
+
+.gray-underline {
+  -webkit-text-decoration: underline gray;
+          text-decoration: underline gray;
+}
 /*# sourceMappingURL=pastel.css.map */

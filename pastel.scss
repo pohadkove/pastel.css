@@ -190,9 +190,12 @@ xl: border-radius 15px,
 
   .#{$name}-radius {
     border-radius: $border-radius;
+    
   }
 
 }
+
+
 
 @each $name, $color in $color-map {
   .#{$name}-card {
@@ -231,3 +234,20 @@ xl: border-radius 15px,
   margin-top:-80px;
   margin-left:-80px;
 }
+
+.underline{
+  text-decoration: underline;
+}
+.underline-dotted{
+  text-decoration: underline dotted;
+}
+.overline {
+  text-decoration: overline;
+}
+
+
+@each $name, $color in $color-map {
+  .#{$name}-underline {
+    text-decoration: underline $color;
+   }
+  }
