@@ -11,18 +11,14 @@ Has color schemes from other companies and libraries for example discord, so you
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| b-primary | ![:#0d6efd](https://via.placeholder.com/10/0d6efd?text=+) #0d6efd |
-| mui-primary | ![#90caf9](https://via.placeholder.com/10/90caf9?text=+) #90caf9 |
-| a-primary | ![#00796B](https://via.placeholder.com/10/00796B?text=+) #00796B |
-| d-primary | ![#7289da](https://via.placeholder.com/10/7289da?text=+) #7289da |
+| d-primary | ![#7289da](https://via.placeholder.com/10/#677bc5?text=+) #7289da |
 
 
 ## key
 
-d = discord colors\
-b = bootstrap 5 colors\
-mui = mui colors\
-a = android look a like colors
+d = dark colors
+inspect files for the rest im to lazy
+
 ## Authors
 
 - [@pohadkove](https://github.com/pohadkove)
