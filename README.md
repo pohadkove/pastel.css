@@ -2,8 +2,7 @@
 [![downloads](https://img.shields.io/npm/dy/pastel.css?style=for-the-badge)](https://www.npmjs.com/package/pastel.css)
 # pastel.css
 
-A simple css library that adds color schemes buttons etc
-Has color schemes from other companies and libraries for example discord, so you can make a simple discord themed site!. 
+
 
 
 
