@@ -18,6 +18,8 @@
 - d = dark colors
 - inspect files for the rest im to lazy
 
+[![Alternate Text]({image-url})](https://videos.visualsource.net/e7072af6b55279ac98c5a9f4df7b04c9.mp4} "vis")
+
 ## Authors
 
 - [@pohadkove](https://github.com/pohadkove)
