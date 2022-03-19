@@ -45,5 +45,3 @@ Install my-project with npm
  https://www.unpkg.com/pastel.css/pastel.min.css
  ```
 
-## New! side bar
-[Imgur](https://i.imgur.com/dOGBALi.png)
